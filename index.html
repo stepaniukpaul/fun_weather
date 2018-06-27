@@ -1,0 +1,446 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WeatherApp</title>
+    <meta name="description" content="Get the most fun weather app">
+    <meta name="keywords" content="Simple, nice, user-friendly, application, weather, only, useful, information">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <!-- OG -->
+    <meta property="og:title" content="WeatherApp">
+    <meta property="og:description" content="Get the most fun weather app">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="img/funweather-og.jpg">
+    <meta property="og:site_name" content="WeatherApp">
+    <!-- Styles -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700" rel="stylesheet"/>
+    <!-- Slick -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+    <!-- Main styles -->
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/media.css"/>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="wave__big wave"></div>
+        <div class="wave__transparent wave"></div>
+        <audio id="sound" src="sound/bubbles.mp3" preload="auto" autoplay></audio>
+        <div class="container container-first">
+            <div class="hat">
+                <div class="row">
+                    <div class="col-4 col-lg-2">
+                        <div class="logo">
+                            <img src="img/logo.png" alt="Fun Weather." class="logotype">
+                        </div>
+                    </div>
+                    <div class="col-lg-8 d-none d-lg-block menu-collapse">
+                        <nav class="menu">
+                            <ul class="menu__list d-flex justify-content-around">
+                                <li class="menu__item">
+                                    <a href="index.html" class="menu__link">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#features" class="menu__link go_to">
+                                        Features
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#reviews" class="menu__link go_to">
+                                        Reviews
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">
+                                        Download
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-4 d-lg-none d-flex justify-content-center">
+                        <button class="menu__open">
+                            Menu
+                        </button>
+                    </div>
+                    <div class="col-4 col-lg-2">
+                        <div class="social">
+                            <ul class="social__list d-flex justify-content-end">
+                                <li class="social__item">   
+                                    <a href="#" class="social__link social__link_fb">
+                                    </a>
+                                </li>
+                                <li class="social__item">   
+                                    <a href="#" class="social__link social__link_insta">
+                                    </a>
+                                </li>
+                                <li class="social__item">   
+                                    <a href="#" class="social__link social__link_twitter">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="offer position-absolute">
+                <h1 class="offer__title animated bounce">
+                    Get the most fun weather app
+                </h1>           
+                <p class="offer__descripcion animated bounce">
+                    Simple, nice and user-friendly application of the weather. Only useful information
+                </p>
+                <div class="offer__buttons d-flex">
+                    <a href="#" class="offer__download button animated">
+                        Download
+                    </a>
+                    <a href="#features" class="offer__features button go_to animated">
+                        Features
+                    </a>
+                </div>
+            </div>
+            <div class="header__objects">   
+                <div class="phone animated fadeInRightBig">
+                    <img src="img/phone.png" alt="WeaterApp" class="heder__phone">
+                </div>
+                <div class="circle london circle_big animated zoomIn">
+                    London
+                </div>
+                <div class="circle rio animated zoomIn">
+                    Rio
+                </div>
+                <div class="circle sunny circle_big animated zoomIn">
+                    Sunny
+                </div>
+                <div class="circle nine animated zoomIn">
+                    9˚
+                </div>
+            </div>      
+            <a href="#widgets" class="scroll__down circle go_to"></a>            
+        </div>
+    </header>
+    <section class="features" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="features__title title">
+                        Perfect Features
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="features__subtitle subtitle">
+                        Only necessary
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="features__list d-md-flex">
+                    <div class="col-12 col-md-4 d-flex flex-column flex-xl-row align-items-center align-items-xl-start">
+                        <div class="features__list_icon">
+                            <img src="img/usability.png" alt="Usability" class="features__icon">   
+                        </div>
+                        <div class="features__list_text">
+                            <h4 class="features__titling">
+                                Usability
+                            </h4>
+                            <p class="features__text">
+                                Sometimes the simplest things are the hardest to find. So we created a new line for everyday life
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 d-flex flex-column flex-xl-row align-items-center align-items-xl-start">
+                        <div class="features__list_icon">
+                            <img src="img/parallax.png" alt="Parallax Effect" class="features__icon">   
+                        </div>
+                        <div class="features__list_text">
+                            <h4 class="features__titling">
+                                Parallax Effect
+                            </h4>
+                            <p class="features__text">
+                                Sometimes the simplest things are the hardest to find. So we created a new line for everyday life
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 d-flex flex-column flex-xl-row align-items-center align-items-xl-start">
+                        <div class="features__list_icon">
+                            <img src="img/colors.png" alt="Unlimites Colors" class="features__icon">   
+                        </div>
+                        <div class="features__list_text">
+                            <h4 class="features__titling">
+                                Unlimites Colors
+                            </h4>
+                            <p class="features__text">
+                                Sometimes the simplest things are the hardest to find. So we created a new line for everyday life
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="widgets" id="widgets">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="widgets__title title">
+                        Simple widgets
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="features__subtitle subtitle">
+                        Drag and Drop
+                    </p> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="slider d-flex align-items-center">
+                        <div class="slider__block block_first">  
+                        </div>
+                        <div class="slider__block block_second">   
+                        </div>
+                        <div class="slider__block block_third">   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="screenshots" id="screenshots">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="screenshots__title title">
+                        Screenshots
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="screenshots__subtitle subtitle">
+                        The brightest images
+                    </p>
+                </div>
+            </div>
+            <div class="cloudy-block">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-5">
+                        <div class="phone__block phone__block_cloudy">
+                            <div class="phone__bg">Cloudy</div>
+                            <div class="cloudy__phone animated"></div>
+                            <div class="scr__circle cloudy__circle animated">Cloudy</div>
+                            <div class="scr__circle fifteen__circle animated">15˚</div>                  
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="screenshots__cloudy">
+                            <img src="img/cloudy-icon.png" alt="Cloudy" class="cloudy__icon">
+                            <h3 class="cloudy__title title scr__title">
+                                When the clouds
+                            </h3>
+                            <p class="cloudy__text scr__text">
+                                Variable information on the air humidity, the feeling of the weather, and the ability to share this with your friends
+                            </p>
+                            <img src="img/icons.png" alt="Cloudy indicators" class="cloudy__image">
+                        </div>
+                    </div>                
+                </div>
+            </div>
+            <div class="sunny-block">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-6">
+                        <div class="screenshots__sunny">
+                            <img src="img/sunny-icon.png" alt="Sunny" class="sunny__icon">
+                            <h3 class="sunny__title title scr__title">
+                                When the sun
+                            </h3>
+                            <p class="sunny__text scr__text">
+                                Sometimes the simplest things are the hardest to find. So we created a new line for everyday life. Sometimes the simplest things are the 
+                            </p>
+                            <img src="img/icons.png" alt="Sunny indicators" class="sunny__image">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5">
+                        <div class="phone__block phone__block_sunny">
+                            <div class="phone__bg">Sunny</div>
+                            <div class="sunny__phone animated"></div>
+                            <div class="scr__circle sunny__circle animated">Sunny</div>
+                            <div class="scr__circle th-five__circle animated">35˚</div>                  
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="reviews__title title">
+                        What people are saying
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="reviews__subtitle subtitle">
+                        Reviews
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="reviews__comment reviews__comment_left animated">
+                        <p class="comment__text">
+                            What art offers is space - a certain breathing room for the spirit.
+                        </p>
+                        <span class="comment__autor">
+                            John Updike
+                        </span>
+                        <span class="reviews__commas reviews__commas-up">
+                            “
+                        </span>
+                        <span class="reviews__commas reviews__commas-down">
+                            “
+                        </span>
+                    </div>                    
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="reviews__comment reviews__comment_right animated">
+                        <p class="comment__text">
+                            We do not see nature with our eyes, but with our understandings and our hearts.
+                        </p>
+                        <span class="comment__autor">
+                            William Hazlitt
+                        </span>
+                        <span class="reviews__commas reviews__commas-up">
+                            “
+                        </span>
+                        <span class="reviews__commas reviews__commas-down">
+                            “
+                        </span>
+                    </div>                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="reviews__comment reviews__comment_left animated">
+                        <p class="comment__text">
+                            The only courage that matters is the kind that gets you from one moment to the next.
+                        </p>
+                        <span class="comment__autor">
+                            Mignon McLaughlin
+                        </span>
+                        <span class="reviews__commas reviews__commas-up">
+                            “
+                        </span>
+                        <span class="reviews__commas reviews__commas-down">
+                            “
+                        </span>
+                    </div>                    
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="reviews__comment reviews__comment_right animated">
+                        <p class="comment__text">
+                            No man has a good enough memory to be a successful liar. 
+                        </p>
+                        <span class="comment__autor">
+                            Abraham Lincoln
+                        </span>
+                        <span class="reviews__commas reviews__commas-up">
+                            “
+                        </span>
+                        <span class="reviews__commas reviews__commas-down">
+                            “
+                        </span>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__menu">
+                <div class="row">
+                    <div class="col-6 col-lg-2">
+                        <a href="#header" class="footer-logo go_to">
+                            <img src="img/logo-color.png" alt="Fun Weather." class="logotype">
+                        </a>
+                    </div>
+                    <div class="col-lg-8 d-none d-lg-block">
+                        <nav class="menu">
+                            <ul class="menu__list d-flex justify-content-around">
+                                <li class="menu__item">
+                                    <a href="index.html" class="menu__link menu__link_footer">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#features" class="menu__link menu__link_footer go_to">
+                                        Features
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#reviews" class="menu__link menu__link_footer go_to">
+                                        Reviews
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link menu__link_footer">
+                                        Download
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <div class="social">
+                            <ul class="social__list d-flex justify-content-end">
+                                <li class="social__item">   
+                                    <a href="#" class="social__link social__link_fb">
+                                    </a>
+                                </li>
+                                <li class="social__item">   
+                                    <a href="#" class="social__link social__link_insta">
+                                    </a>
+                                </li>
+                                <li class="social__item">   
+                                    <a href="#" class="social__link social__link_twitter">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__line"></div>
+        <div class="container">
+            <div class="row ">
+                <div class="col-12">
+                    <div class="footer__credits">
+                        © 2016 All rights reserved. Weather App Theme by Gravpix
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </footer>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>    
+    <script src="js/main.js"></script>
+</body>
+</html>
